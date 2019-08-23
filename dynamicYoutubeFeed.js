@@ -1,4 +1,4 @@
-const embedYoutube = options => {
+const dynamicYoutubeFeed = options => {
     const { channelId, wrapperId, limit =5, videoWrapper = "youtubeVideo", iframeWidth = 560, iframeHeight = 315 } = options;
     const youtubeXMLfeed = `https://cors-anywhere.herokuapp.com/https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`
 
