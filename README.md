@@ -27,7 +27,7 @@ dynamicYoutubeFeed({
 HTML: 
 ```
 <body>
-    <div id="myYoutubeClips">
+    <div id="myYoutubeClips"></div>
     <script src="youtubeFeed.js" ></script>
     <script src="custom.js" ></script>
 </body>
