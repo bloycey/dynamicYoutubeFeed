@@ -13,7 +13,7 @@ The API is great but overkill for this scenario. If all you want is your latest 
 
 ```
 dynamicYoutubeFeed({
-    channelId, // Required. *String* The id of the youtube channel
+    channelId, // Required. *String* The id of the youtube channel. E.g. youtube.com/channel/[ID_IS_HERE]
     wrapperId, // Required. *String* The CSS Id of the div that will hold your videos
     limit,  // Optional. *Int* How many videos to display. Defaults to 5 
     videoWrapper, // Optional *String* The CSS Class that will wrap each video. Defaults to "youtubeVideo"
